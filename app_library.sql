@@ -163,16 +163,3 @@ Objective: Create a stored procedure to manage the status of books in a library 
     Description: Write a stored procedure that updates the status of a book based on its issuance or return. Specifically:
     If a book is issued, the status should change to 'no'.
     If a book is returned, the status should change to 'yes'.
-
-Task 20: Create Table As Select (CTAS)
-Objective: Create a CTAS (Create Table As Select) query to identify overdue books and calculate fines.
-
-Description: Write a CTAS query to create a new table that lists each member and the books they have issued but not returned within 30 days. The table should include:
-    The number of overdue books.
-    The total fines, with each day's fine calculated at $0.50.
-    The number of books issued by each member.
-    The resulting table should show:
-    Member ID
-    Number of overdue books
-    Total fines
-*/
